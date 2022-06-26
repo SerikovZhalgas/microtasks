@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import NewComponent from "./NewComponent";
 
-const topCars = [
+/*const topCars = [
     {id: 1, manufacturer: 'BMW', model: 'm5cs'},
     {id: 2, manufacturer: 'Mercedes', model: 'e63s'},
     {id: 3, manufacturer: 'Audi', model: 'rs6'}
@@ -22,14 +22,14 @@ const students = [
     {id: 7, name: "Volodya", age: 75},
     {id: 8, name: "Miras", age: 99},
     {id: 9, name: "Vanya", age: 45},
-]
+]*/
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <NewComponent topCars={topCars} students={students}/>
+    <App/>
   </React.StrictMode>
 );
 
