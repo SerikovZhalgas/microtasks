@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import NewComponent from "./NewComponent";
+import App2 from './App2'
 
 /*const topCars = [
     {id: 1, manufacturer: 'BMW', model: 'm5cs'},
@@ -29,7 +30,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App/>
+    <App2/>
   </React.StrictMode>
 );
 
